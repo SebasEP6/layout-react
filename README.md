@@ -1,6 +1,6 @@
 ### Requirements
 
-Node version recommended v18.3
+Node version recommended v20.10
 
 ---
 
