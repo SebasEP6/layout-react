@@ -1,13 +1,13 @@
 import styles from './styles.module.css'
 
-interface CardProps {
+type CardProps = {
   text: string;
 }
 
 const Card = (props: CardProps) => {
   const {
     text
-  } = props;
+  } = props; // destructuración de objeto
 
   return (
     <div className={styles.container}>
